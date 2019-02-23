@@ -95,8 +95,8 @@ class WarpSquare(Scene):
 class WriteStuff(Scene):
     def construct(self):
         example_text = TextMobject(
-            "This is a some text",
-            tex_to_color_map={"text": YELLOW}
+            "This is a 测试中文 haha",
+            tex_to_color_map={"haha": YELLOW}
         )
         example_tex = TexMobject(
             "\\sum_{k=1}^\\infty {1 \\over k^2} = {\\pi^2 \\over 6}",
